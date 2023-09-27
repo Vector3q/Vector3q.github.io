@@ -77,3 +77,26 @@ li {
   width: 200px; /* 设置图片的宽度 */
   height: auto; /* 自动计算图片的高度，保持图片比例 */
 }
+body {
+  background-color: #f0f0f0;
+  background: url(../image/bg.png);
+  line-height: 150%;
+  color: #111;
+  margin: 0px;
+  padding-top: 86px; /* for fixed navbar */
+}
+name {
+  font-family: "Arial", Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+heading {
+  font-family: "Arial", Verdana, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+projecttitle {
+  font-family: "Arial", Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2aa5;
+}
