@@ -105,3 +105,20 @@ pintro {
   font-family: "Arial", Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
+#highlightText {
+  padding: 10px;
+  border: 2px solid #ffff05; /* 边缘颜色 */
+  background-color: #f2ffba; /* 背景颜色 */
+  color: #333; /* 文字颜色 */
+  border-radius: 5px; /* 圆角边框 */
+  outline: none; /* 去除默认的外边框效果 */
+}
+
+#TableBox {
+  padding: 10px;
+  border: 2px solid #0066ff; /* 边缘颜色 */
+  background-color: rgb(255, 254, 245); /* 背景颜色 */
+  color: #333; /* 文字颜色 */
+  border-radius: 5px; /* 圆角边框 */
+  outline: none; /* 去除默认的外边框效果 */
+}
