@@ -9,7 +9,7 @@ header {
 
 .title-bar {
   background-color: #eeab5e; /* 设置标题栏的背景颜色为蓝色 */
-  padding: 5px 0;
+  padding: 0% 0%;
 }
 
 .text-left {
@@ -22,7 +22,35 @@ h1 {
 }
 
 nav {
-  margin-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333333a5;
+  color: white;
+  text-align: left;
+
+  padding: 0px;
+}
+.nav-container {
+  width: 100%;
+  max-width: 950px;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: inline-block;
+}
+
+.nav-container a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 button {
