@@ -131,6 +131,15 @@ chinesename {
   display: block;
   
 }
+
+papertitle {
+  font-family: "Arial", Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #b90000;
+  margin-bottom: 6px;  
+  
+}
 heading {
   font-family: "Arial", Verdana, Helvetica, sans-serif;
   font-size: 23px;
