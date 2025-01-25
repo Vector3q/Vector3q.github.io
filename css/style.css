@@ -117,17 +117,19 @@ name {
   font-family: "Cambria", Verdana, Helvetica, sans-serif;
   font-size: 25px;
   text-align: center;
-  display: block;
   margin-top: 6px;
   margin-bottom: 12px;
+  display: block;
+
 }
 chinesename {
   font-family: "Cambria", Verdana, Helvetica, sans-serif;
   font-size: 18px;
   color: #3c3d37;
   text-align: center;
-  display: block;
   margin-bottom: 6px;  
+  display: block;
+  
 }
 heading {
   font-family: "Arial", Verdana, Helvetica, sans-serif;
