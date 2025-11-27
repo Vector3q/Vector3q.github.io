@@ -1,5 +1,9 @@
-/* 之前的样式保持不变 */
 
+:root {
+  --VRARMR:  #82c1ed;
+  --HAI:   #e86077;
+  --A11Y: #51cbae;
+}
 header {
   text-align: left;
   padding: 0px;
@@ -140,6 +144,25 @@ papertitle {
   margin-bottom: 6px;  
   
 }
+
+papertitle icon {
+  --tag-bg: var(--blue); 
+  display: inline-block;
+  background: var(--tag-bg);
+  color: #fff;
+  font-size: .70em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.25em 0.55em;
+  border-radius: 0.9em;
+  white-space: nowrap;
+  pointer-events: none;        /* 不挡鼠标 */
+}
+
+papertitle icon[color="VRARMR"]    { --tag-bg: var(--VRARMR);   }
+papertitle icon[color="HAI"]  { --tag-bg: var(--HAI); }
+papertitle icon[color="A11Y"]   { --tag-bg: var(--A11Y);  }
+
 heading {
   font-family: "Arial", Verdana, Helvetica, sans-serif;
   font-size: 24px;
