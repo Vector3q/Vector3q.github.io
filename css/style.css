@@ -3,6 +3,7 @@
   --VRARMR:  #82c1ed;
   --HAI:   #e2818c;
   --A11Y: #51cbae;
+  --HBM: #d3ace2;
 }
 header {
   text-align: left;
@@ -162,6 +163,7 @@ papertitle icon {
 papertitle icon[color="VRARMR"]    { --tag-bg: var(--VRARMR);   }
 papertitle icon[color="HAI"]  { --tag-bg: var(--HAI); }
 papertitle icon[color="A11Y"]   { --tag-bg: var(--A11Y);  }
+papertitle icon[color="HBM"]   { --tag-bg: var(--HBM);  }
 
 heading {
   font-family: "Arial", Verdana, Helvetica, sans-serif;
