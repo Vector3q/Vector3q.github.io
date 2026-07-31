@@ -152,10 +152,11 @@ papertitle {
 papertitle icon {
   --tag-bg: #103165;
   --tag-fg: #fffaf0;
+  --tag-border: #071b36;
   display: inline-block;
   background: var(--tag-bg);
   color: var(--tag-fg);
-  border: 1px solid var(--tag-bg);
+  border: 1px solid var(--tag-border);
   font-size: .70em;
   font-weight: 600;
   line-height: 1;
@@ -165,10 +166,10 @@ papertitle icon {
   pointer-events: none;        /* 不挡鼠标 */
 }
 
-papertitle icon[color="VRARMR"] { --tag-bg: #103165; --tag-fg: #fffaf0; }
-papertitle icon[color="HAI"] { --tag-bg: #966809; --tag-fg: #fffaf0; }
-papertitle icon[color="A11Y"] { --tag-bg: #386e72; --tag-fg: #fffaf0; }
-papertitle icon[color="HBM"] { --tag-bg: #754650; --tag-fg: #fffaf0; }
+papertitle icon[color="VRARMR"] { --tag-bg: #103165; --tag-fg: #fffaf0; --tag-border: #071b36; }
+papertitle icon[color="HAI"] { --tag-bg: #966809; --tag-fg: #fffaf0; --tag-border: #594005; }
+papertitle icon[color="A11Y"] { --tag-bg: #386e72; --tag-fg: #fffaf0; --tag-border: #21474a; }
+papertitle icon[color="HBM"] { --tag-bg: #754650; --tag-fg: #fffaf0; --tag-border: #482a31; }
 
 heading {
   font-family: "Arial", Verdana, Helvetica, sans-serif;
