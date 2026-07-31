@@ -73,7 +73,7 @@
 
                       <strong><name style="text-align: center">Linjie Qiu</name></strong>
 
-                    <chinesename> 邱林杰 | Incoming Ph.D. Student </chinesename>
+                    <chinesename> 邱林杰 | Ph.D. Student </chinesename>
                     <chinesename>lqiu250@connect.hkust-gz.edu.cn </chinesename>
   
                     <div style="margin-top: 25px; text-align: center;">
@@ -98,7 +98,7 @@
 
                   <td style="padding: 0%; width: 70%; vertical-align: middle">
                     <p>
-                      Hi, I am Linjie Qiu, an incoming Ph.D. student in the
+                      Hi, I am Linjie Qiu, a first-year Ph.D. student in the
                       <a href="https://iott.hkust-gz.edu.cn/" target="_blank">Internet of Things (IoT) Thrust</a>
                       at <a href="https://www.hkust-gz.edu.cn/" target="_blank">HKUST(GZ)</a>,
                       supervised by
@@ -139,7 +139,7 @@
                       /&nbsp
                       <a href="https://scholar.google.com/citations?user=SHRFSmUAAAAJ&hl=en" target="_blank">Google Scholar</a>
                       &nbsp/&nbsp
-                      <a href="resource/CV__Linjie_Qiu.pdf" target="_blank">CV (updated in July 2026)</a>&nbsp&nbsp
+                      <a href="resource/CV__Linjie_Qiu.pdf" target="_blank">CV(updated in May. 2026)</a>&nbsp&nbsp
                       <!-- <a href="./index-cn.html">中文</a>&nbsp/&nbsp -->
                     </p>
                     <table style="width: 100%; border-collapse: collapse;">
@@ -222,9 +222,7 @@
               <tbody>
                 <ul id="news-list">
                   <!-- <li><pintro><strong>07/2025:</strong> One paper accepted by <a href="https://cscw.acm.org/2025/" target="_blank">CSCW 2025</a>.</a><pintro></li> -->
-                  <!-- UIST 2026 news hidden until the paper is public:
                   <li class="news-item"><pintro><strong>07/2026:</strong> One paper has been conditionally accepted to <a href="https://uist.acm.org/2026/" target="_blank">UIST 2026</a>.</pintro></li>
-                  -->
                   <li class="news-item"><pintro><strong>07/2026:</strong> I will join the <a href="https://iott.hkust-gz.edu.cn/" target="_blank">Internet of Things (IoT) Thrust</a> at HKUST(GZ) as a Ph.D. student in Fall 2026, advised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Xudong/xudongwang" target="_blank">Prof. Xudong Wang</a> and <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/FAN-Mingming/mingmingfan" target="_blank">Prof. Mingming Fan</a>.</pintro></li>
                   <li class="news-item"><pintro><strong>01/2026:</strong> Two papers are accepted by <a href="https://ieeevr.org/2026/" target="_blank">IEEE VR 2026</a>, one as the first author. Both are selected as <a href="https://www.computer.org/csdl/journal/tg" target="_blank">TVCG</a>.</a
                     ><pintro></li>
@@ -284,7 +282,7 @@
               "
             >
               <tbody>
-                <!-- UIST 2026 paper hidden until public
+                <!-- paper -->
                 <tr>
                   <td style="padding: 20px; width: 20%; vertical-align: middle;">
                     <img src="image/papers/optimized/Spatula_Teaser_4x3.jpg" width="200" height="150" loading="lazy" decoding="async" alt="Spatula system overview" />
@@ -310,7 +308,6 @@
                     </pintro>
                   </td>
                 </tr>
-                -->
 
                 <tr>
                   <td style="padding: 20px; width: 20%; vertical-align: middle;                       " >
