@@ -285,6 +285,12 @@ chinesename {
 }
 
 #highlightText {
+  display: table;
+  width: fit-content;
+  max-width: calc(100% - 32px);
+  margin: 16px auto;
+  box-sizing: border-box;
+  text-align: left;
   border: 1px solid rgba(150, 104, 9, 0.4);
   border-left: 5px solid var(--brand-gold);
   background-color: var(--surface-warm);
