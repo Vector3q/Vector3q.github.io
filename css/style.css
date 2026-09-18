@@ -506,10 +506,10 @@ body > table:first-of-type {
 
   .conference-logo {
     position: static;
-    display: block;
-    width: 60px !important;
-    max-height: 60px !important;
-    margin: 0 0 8px auto;
+    float: right;
+    width: 56px !important;
+    max-height: 56px !important;
+    margin: 2px 0 8px 12px;
     transform: none;
   }
 }
