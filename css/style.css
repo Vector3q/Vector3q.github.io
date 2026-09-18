@@ -348,16 +348,193 @@ hr {
   opacity: 0.92;
 }
 
-@media (max-width: 720px) {
+.section-divider {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 16px auto;
+  box-sizing: border-box;
+}
+
+body > table:first-of-type {
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  body {
+    padding-top: 68px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-container a {
+    padding: 12px 10px;
+  }
+
+  body > table:first-of-type {
+    width: calc(100% - 24px) !important;
+    max-width: 100% !important;
+    margin: 12px auto !important;
+    padding: 16px !important;
+  }
+
+  body > table:first-of-type img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-layout,
+  .about-layout > tbody,
+  .about-layout > tbody > tr,
+  .about-layout > tbody > tr > td,
+  .interests-education,
+  .interests-education > tbody,
+  .interests-education > tbody > tr,
+  .interests-education > tbody > tr > td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .profile-column {
+    padding: 8px 0 12px !important;
+  }
+
+  .profile-column > img {
+    width: min(48%, 190px) !important;
+    max-width: 190px !important;
+  }
+
+  .profile-column > div {
+    margin-top: 12px !important;
+  }
+
+  .profile-column > div img {
+    width: auto !important;
+    max-width: 100px !important;
+    max-height: 100px;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  .intro-column {
+    padding: 0 !important;
+    overflow-wrap: anywhere;
+  }
+
+  #highlightText {
+    display: block;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .interests-column {
+    padding: 0 !important;
+  }
+
+  .education-column {
+    padding: 18px 0 0 !important;
+  }
+
+  .education-list {
+    width: 100% !important;
+  }
+
+  .education-list tr,
+  .education-list td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .education-list tr {
+    margin-bottom: 10px;
+  }
+
+  .education-list td:last-child {
+    text-align: left !important;
+    padding-left: 27px !important;
+    color: var(--muted);
+    font-size: 0.9em;
+  }
+
+  .publication-list,
+  .publication-list > tbody,
+  .publication-list > tbody > tr,
+  .publication-list > tbody > tr > td,
+  .project-list,
+  .project-list > tbody,
+  .project-list > tbody > tr,
+  .project-list > tbody > tr > td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .publication-list > tbody > tr,
+  .project-list > tbody > tr {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--brand-border);
+  }
+
+  .publication-thumb,
+  .project-thumb {
+    padding: 0 10px 12px !important;
+    text-align: center;
+  }
+
+  .publication-thumb img,
+  .project-thumb img {
+    display: block;
+    width: min(100%, 240px);
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .publication-details,
+  .project-details {
+    padding: 0 10px !important;
+  }
+
   .publication-details {
-    padding-right: 20px !important;
+    padding-right: 10px !important;
   }
 
   .conference-logo {
     position: static;
     display: block;
-    width: 64px;
-    margin: 10px 0 0 auto;
+    width: 60px !important;
+    max-height: 60px !important;
+    margin: 0 0 8px auto;
     transform: none;
+  }
+}
+
+@media (max-width: 480px) {
+  body > table:first-of-type {
+    width: calc(100% - 16px) !important;
+    padding: 12px !important;
+  }
+
+  .nav-container a {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+
+  .nav-container a:first-child {
+    font-size: 16px !important;
+  }
+
+  heading {
+    font-size: 21px;
+  }
+
+  .publication-thumb img,
+  .project-thumb img {
+    width: min(100%, 220px);
   }
 }
